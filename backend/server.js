@@ -13,7 +13,7 @@ const server = http.createServer(app);
 // Allowed origins (adjust as needed)
 const allowedOrigins = [
     process.env.CLIENT_URL, // e.g., "https://your-frontend-domain.com"
-    "http://localhost:5173" // for local testing
+    "http://localhost:5173","https://stellar-custard-76aab7.netlify.app" // for local testing
 ];
 
 app.use(cors({
